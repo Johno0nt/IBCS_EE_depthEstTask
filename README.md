@@ -1,20 +1,39 @@
 # Depth Estimation Extended Essay - CS
 Completed as part of my IB Diploma, during the November 2023 session.
 
-**The majority of the code used in the EE is from:** \
+**The majority of the code used is from:** \
 https://github.com/savnani5/Depth-Estimation-using-Stereovision \
 https://github.com/magicleap/SuperPointPretrainedNetwork
 
 **NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.** \
-**Image Rectification from Matching Features (Eight-Point Algorithm)** \
-<img width="500" alt="Left and Right Images Across a Common Image Plane" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/LeftAndRightRectif.png?raw=true">
+\
+### Image Rectification from Matching Features (Eight-Point Algorithm) ### \
+<img width="1000" alt="Left and Right Images Across a Common Image Plane" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/leftAndRightRectif.png?raw=true">
+
+# Dependencies
+* OpenCV Python
+* PyTorch
+* NumPy
+* Matplotlib
+
+These can be installed via:
+```
+pip install opencv-python
+pip install torch
+pip install numpy
+pip install matplotlib
+```
+
+or with any other Python package manager e.g. Anaconda.
 
 # Datasets
-The **'Berlin'** Evaluation and Training dataset from the **Cityscapes Dataset** were used for the 'experimental procedure'. \
+The **'Berlin'** evaluation and training dataset from the **Cityscapes Dataset** were used for the 'experimental procedure'. \
 \
 This can be found at: https://www.cityscapes-dataset.com/downloads/ \
-The following files were downloaded: \
-leftImg8bit_trainvaltest.zip, rightImg8bit_trainvaltest.zip, and disparity_trainvaltest.zip
+**Specific Files Needed: **\
+* leftImg8bit_trainvaltest.zip
+* rightImg8bit_trainvaltest.zip
+* disparity_trainvaltest.zip
 
 # Results
 Mean Absolute Error            |  Root Mean Square Error
