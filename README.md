@@ -5,10 +5,12 @@ Completed as part of my IB Diploma, during the November 2023 session.
 https://github.com/savnani5/Depth-Estimation-using-Stereovision \
 https://github.com/magicleap/SuperPointPretrainedNetwork
 
-**NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.** \
-\
-### Image Rectification from Matching Features (Eight-Point Algorithm) ### \
+**NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.**
+### Image Rectification from Matching Features (Eight-Point Algorithm) ###
 <img width="1000" alt="Left and Right Images Across a Common Image Plane" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/leftAndRightRectif.png?raw=true">
+
+### SGBM Disparity Map with WLS Filtering ###
+<img width="820" alt="Disparity Map" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/disparity_filtered.png?raw=true">
 
 # Dependencies
 * OpenCV Python
@@ -28,9 +30,9 @@ or with any other Python package manager e.g. Anaconda.
 
 # Datasets
 The **'Berlin'** evaluation and training dataset from the **Cityscapes Dataset** were used for the 'experimental procedure'. \
-\
 This can be found at: https://www.cityscapes-dataset.com/downloads/ \
-**Specific Files Needed: **\
+\
+**Specific Files Needed:**
 * leftImg8bit_trainvaltest.zip
 * rightImg8bit_trainvaltest.zip
 * disparity_trainvaltest.zip
