@@ -5,7 +5,9 @@ Completed as part of my IB Diploma, during the November 2023 session.
 https://github.com/savnani5/Depth-Estimation-using-Stereovision \
 https://github.com/magicleap/SuperPointPretrainedNetwork
 
-**NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.**
+**NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.** \
+**Image Rectification from Matching Features (Eight-Point Algorithm)** \
+<img width="500" alt="Left and Right Images Across a Common Image Plane" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/LeftAndRightRectif.png?raw=true">
 
 # Datasets
 The **'Berlin'** Evaluation and Training dataset from the **Cityscapes Dataset** were used for the 'experimental procedure'. \
