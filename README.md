@@ -2,7 +2,8 @@
 Completed as part of my IB Diploma, during the November 2023 session.
 
 **The majority of the code used in the EE is from:** \
-https://github.com/savnani5/Depth-Estimation-using-Stereovision
+https://github.com/savnani5/Depth-Estimation-using-Stereovision \
+https://github.com/magicleap/SuperPointPretrainedNetwork
 
 **NOTE - The extended essay only makes up ~25 pages of the actual document. It was a requirement for the code used to be placed at the end in the Appendices, as well as any pertinent results of the code itself.**
 
