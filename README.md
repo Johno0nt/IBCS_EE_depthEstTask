@@ -1,5 +1,9 @@
 # Depth Estimation Extended Essay - CS
-Completed as part of my IB Diploma, during the November 2023 session.
+**Research Question:** How do the ORB and SuperPoint feature-extracting algorithms compare in terms of accuracy and computational efficiency in stereo block-matching depth estimation?
+
+Completed as part of my IB Diploma, during the November 2023 session. \
+This essay looked at comparing traditional feature-extractors in ORB (Orientated FAST and Rotated BRIEF) and deep-learning feature-extractors in SuperPoint with an image rectification task alongside a depth estimation application.
+
 
 **The majority of the code used is from:** \
 https://github.com/savnani5/Depth-Estimation-using-Stereovision \
@@ -10,7 +14,7 @@ https://github.com/magicleap/SuperPointPretrainedNetwork
 <img width="1000" alt="Left and Right Images Across a Common Image Plane" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/leftAndRightRectif.png?raw=true">
 
 ### SGBM Disparity Map with WLS Filtering ###
-<img width="820" alt="Disparity Map" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/disparity_filtered.png?raw=true">
+<img width="500" alt="Disparity Map" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Git Images/disparity_filtered.png?raw=true">
 
 # Dependencies
 * OpenCV Python
