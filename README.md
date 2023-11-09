@@ -15,3 +15,8 @@ The following files were downloaded: \
 leftImg8bit_trainvaltest.zip, rightImg8bit_trainvaltest.zip, and disparity_trainvaltest.zip
 
 # Results
+Mean Absolute Error            |  Root Mean Square Error
+:-------------------------:|:-------------------------:
+<img width="500" alt="MAE Graph" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/MAE.png?raw=true"> |  <img width="500" alt="RMSE Graph" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/RMSE.png?raw=true">
+**Structural Similiarity Index**            |  **Run-Time Graph**
+<img width="500" alt="SSIM Graph" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/SSIM.png?raw=true">  |  <img width="250" alt="Runtime Graph" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/runtime_raw.png?raw=true"> <img width="250" alt="Runtime Graph" src="https://github.com/Johno0nt/IBCS_EE_depthEstTask/blob/main/Complexity.png?raw=true">
