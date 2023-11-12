@@ -2,7 +2,7 @@
 **Research Question:** How do the ORB and SuperPoint feature-extracting algorithms compare in terms of accuracy and computational efficiency in stereo block-matching depth estimation?
 
 Completed as part of my IB Diploma, during the November 2023 session. \
-This essay looked at comparing traditional feature-extractors in ORB (Orientated FAST and Rotated BRIEF) and deep-learning feature-extractors in SuperPoint with an image rectification task alongside a depth estimation application.
+This essay looked at comparing traditional feature-extractors in ORB (Orientated FAST and Rotated BRIEF) and deep-learning feature-extractors in SuperPoint with an image rectification task alongside a depth estimation application. Essentially, key-points from each image sensor were determined with the 8-Point algorithm being used for each frame in the rectification process. From these rectified frames, the disparity maps were then computed which were evaluated against a ground-truth map alongside the run-time.
 
 
 **The majority of the code used is from:** \
